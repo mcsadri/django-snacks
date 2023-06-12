@@ -36,3 +36,8 @@ class HomePageView(TemplateView):
         ]
 
         return context
+
+
+class AboutView(TemplateView):
+    template_name = 'about.html'
+
